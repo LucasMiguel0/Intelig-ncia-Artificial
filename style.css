@@ -1,29 +1,29 @@
-:root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+:root{/*                                     Função utilizada para definir variáveis CSS globais                                  */ 
+    --cor-fundo: #01080E ;/*               Variável --cor-fundo definida com a cor #0B0D20(preto)                               */
+    --cor-principal: #0B0D20 ;/*           Variável --cor-principal definida com a cor #0B0D20(preto azulado                    */
+    --cor-secundaria: #212333; /*          Variável --cor-secundaria definida com a cor #212333(azul escuro)                    */
+    --cor-destaque: #2BDEFD;/*             Variável --cor-destaque definida com a cor #2BDEFD(turquesa)                         */
+    --cor-texto: #D7F9FF;/*                Variável --cor-texto definida com a cor #D7F9FF(ciano)                               */
 
 }
 
-body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+body {/*                                     Função responsável pelas características do corpo da página                           */
+    background-color: var(--cor-fundo);/*    Define a cor de fundo(background) com a variável de cor --cor-fundo(preto)            */
+    color: var(--cor-texto);/*               Define a cor com a variável de cor --cor-texto(ciano)                                 */
+    display: flex;/*                         Define os tipos de box geradas como flex                                              */ 
+    justify-content: center;/*               Define os conteúdos do body no centro                                                 */
+    align-items: center;/*                   Alinha os itens do body ao centro                                                     */
+    min-height: 100vh;/*                     Define a altura minima como 100vh                                                     */
 }
 
-.caixa-principal{
-    background-color: var(--cor-principal);
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
+.caixa-principal{/*                          Função responsável pelas características de caixa-principal                           */
+    background-color: var(--cor-principal);/*Define a cor de fundo(background) com a variável de cor --cor-principal(preto azulado)*/
+    width: 90%;/*                            Define a largura como 90%                                                             */
+    max-width: 600px;/*                      Define a largura máxima como 600 pixeis                                               */
+    text-align: center;/*                    Alinha o texto ao centro                                                              */
+    padding: 20px;/*                         Define o espaçamento interno do elemento como 20 pixeis                               */
 }
 
-h1{
-    color: var(--cor-destaque);
+h1{/*                                        Função responsável pelas características de h1                                        */
+    color: var(--cor-destaque);/*            Define a cor com a variável de cor --cor-destaque(turquesa)                           */
 }
